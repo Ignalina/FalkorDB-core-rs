@@ -266,796 +266,796 @@ pub enum GrB_Desc_Value {
     GxB_USE_INDICES = 7060,
     GxB_IS_STRIDE = 7061,
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_T0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_T0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_C: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_CT1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_CT0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_CT0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_S: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_ST1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_ST0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_ST0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_SC: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_SCT1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_SCT0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_SCT0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_R: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RT1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RT0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RT0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RC: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RCT1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RCT0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RCT0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RS: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RST1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RST0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RST0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RSC: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RSCT1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RSCT0: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DESC_RSCT0T1: GrB_Descriptor;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOOL: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_INT8: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_INT16: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_INT32: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_INT64: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_UINT8: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_UINT16: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_UINT32: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_UINT64: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FP32: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FP64: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FC32: GrB_Type;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FC64: GrB_Type;
 }
 pub type GxB_unary_function = ::std::option::Option<
     unsafe extern "C" fn(arg1: *mut ::std::os::raw::c_void, arg2: *const ::std::os::raw::c_void),
 >;
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_IDENTITY_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_AINV_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINV_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LNOT_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_IDENTITY_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_AINV_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MINV_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_IDENTITY_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_AINV_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MINV_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BNOT_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ABS_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONE_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LNOT: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SQRT_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG2_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SQRT_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG2_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SQRT_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG2_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SQRT_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG2_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIN_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COS_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TAN_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIN_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COS_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TAN_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIN_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COS_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TAN_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIN_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COS_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TAN_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOS_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASIN_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOS_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASIN_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOS_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASIN_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOS_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASIN_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SINH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COSH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TANH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SINH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COSH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TANH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SINH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COSH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TANH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SINH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COSH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TANH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOSH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASINH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATANH_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIGNUM_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOSH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASINH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATANH_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIGNUM_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOSH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASINH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATANH_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIGNUM_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ACOSH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ASINH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATANH_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SIGNUM_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CEIL_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FLOOR_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ROUND_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRUNC_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CEIL_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FLOOR_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ROUND_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRUNC_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CEIL_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FLOOR_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ROUND_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRUNC_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CEIL_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FLOOR_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ROUND_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRUNC_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP2_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXPM1_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG10_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG1P_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP2_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXPM1_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG10_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG1P_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP2_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXPM1_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG10_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG1P_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXP2_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EXPM1_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG10_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOG1P_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LGAMMA_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TGAMMA_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ERF_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ERFC_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LGAMMA_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TGAMMA_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ERF_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ERFC_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CBRT_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CBRT_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FREXPX_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FREXPE_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FREXPX_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FREXPE_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CONJ_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CONJ_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CREAL_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CIMAG_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CARG_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CREAL_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CIMAG_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CARG_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISINF_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISINF_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISINF_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISINF_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNAN_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNAN_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNAN_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNAN_FC64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISFINITE_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISFINITE_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISFINITE_FC32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISFINITE_FC64: GrB_UnaryOp;
 }
 pub type GxB_binary_function = ::std::option::Option<
@@ -1065,1378 +1065,1378 @@ pub type GxB_binary_function = ::std::option::Option<
         arg3: *const ::std::os::raw::c_void,
     ),
 >;
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_FIRST_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_SECOND_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ONEB_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRST_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECOND_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONEB_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRST_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECOND_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ONEB_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POW_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MINUS_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIV_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MINUS_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_DIV_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MINUS_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_DIV_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RMINUS_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_RDIV_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PAIR_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISEQ_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISNE_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGT_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLT_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISGE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ISLE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LOR: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LAND: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXOR: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXNOR: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN2_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_HYPOT_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FMOD_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_REMAINDER_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ATAN2_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_HYPOT_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FMOD_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_REMAINDER_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LDEXP_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COPYSIGN_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LDEXP_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_COPYSIGN_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BOR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BAND_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXOR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_BXNOR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BGET_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSET_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BCLR_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BSHIFT_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_EQ_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_NE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GT_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LT_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_NE_FC32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_NE_FC64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_BOOL: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_INT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_INT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_UINT8: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_UINT16: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_UINT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_UINT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_GE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LE_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CMPLX_FP32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CMPLX_FP64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTI_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTI_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTI1_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTI1_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTJ_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTJ_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTJ1_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_FIRSTJ1_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDI_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDI_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDI1_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDI1_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDJ_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDJ_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDJ1_INT32: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_SECONDJ1_INT64: GrB_BinaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONI_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONI_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONI1_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONI1_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONJ_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONJ_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONJ1_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_POSITIONJ1_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_IGNORE_DUP: GrB_BinaryOp;
 }
 pub type GxB_index_binary_function = ::std::option::Option<
@@ -2460,256 +2460,256 @@ pub type GxB_index_unary_function = ::std::option::Option<
         y: *const ::std::os::raw::c_void,
     ),
 >;
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ROWINDEX_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ROWINDEX_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_COLINDEX_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_COLINDEX_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIAGINDEX_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIAGINDEX_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TRIL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TRIU: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_DIAG: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_OFFDIAG: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_COLLE: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_COLGT: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ROWLE: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ROWGT: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_VALUEEQ_FC32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEEQ_UINT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_VALUEEQ_FC64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_VALUENE_FC32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUENE_UINT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_VALUENE_FC64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELT_UINT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUELE_UINT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGT_UINT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_INT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_UINT8: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_FP32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_BOOL: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_INT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_UINT16: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_FP64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_INT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_UINT32: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_INT64: GrB_IndexUnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_VALUEGE_UINT64: GrB_IndexUnaryOp;
 }
 #[repr(u32)]
@@ -2813,16 +2813,16 @@ pub enum GxB_JIT_Control {
     GxB_JIT_LOAD = 3,
     GxB_JIT_ON = 4,
 }
-extern "C" {
+unsafe extern "C" {
     pub static GxB_HYPER_DEFAULT: f64;
 }
-extern "C" {
+unsafe extern "C" {
     pub static GxB_ALWAYS_HYPER: f64;
 }
-extern "C" {
+unsafe extern "C" {
     pub static GxB_NEVER_HYPER: f64;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_CONTEXT_WORLD: GxB_Context;
 }
 #[repr(u32)]
@@ -2832,7 +2832,7 @@ pub enum GxB_Context_Field {
     GxB_CONTEXT_CHUNK = 7087,
     GxB_CONTEXT_GPU_ID = 7088,
 }
-extern "C" {
+unsafe extern "C" {
     pub static GrB_GLOBAL: GrB_Global;
 }
 #[repr(u32)]
@@ -2867,4897 +2867,4897 @@ pub enum GrB_WaitMode {
     GrB_COMPLETE = 0,
     GrB_MATERIALIZE = 1,
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_ALL: *const u64;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_INT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_INT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_INT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_INT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_UINT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_UINT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_UINT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_UINT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_FP32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MONOID_FP64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_INT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_INT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_INT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_INT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_UINT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_UINT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_UINT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_UINT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_FP32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MONOID_FP64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_INT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_INT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_INT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_INT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_UINT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_UINT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_UINT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_UINT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_FP32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MONOID_FP64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FC32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FC64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_INT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_INT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_INT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_INT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_UINT8: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_UINT16: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_UINT32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_UINT64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_FP32: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_TIMES_MONOID_FP64: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FC32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FC64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_INT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FP32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FP64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FC32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FC64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LOR_MONOID_BOOL: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LAND_MONOID_BOOL: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXOR_MONOID_BOOL: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXNOR_MONOID_BOOL: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PAIR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PAIR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MIN_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MIN_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MIN_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MAX_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MAX_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MAX_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MAX_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_DIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_DIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RDIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RDIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_RMINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_RMINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISEQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISEQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISEQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISEQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISEQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISNE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISNE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISNE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISNE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISNE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISGE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISGE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISGE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISGE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISGE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_ISLE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_ISLE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_ISLE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_ISLE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_ISLE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LAND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LAND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LAND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LAND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_LXOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_LXOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_LXOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_LXOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_NE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_NE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_NE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_NE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_NE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_FIRST_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_FIRST_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_FIRST_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_FIRST_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_SECOND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_SECOND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_SECOND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_SECOND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_PAIR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_PAIR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_PAIR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_PAIR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LAND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LAND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LAND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LXOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LXOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LXOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LXOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LXOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_EQ_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_EQ_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_EQ_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_EQ_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_EQ_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LT_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_GE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_GE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_GE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_GE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_GE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_LE_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRST_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRST_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRST_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECOND_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECOND_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECOND_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PAIR_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PAIR_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PAIR_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_PLUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_PLUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_PLUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_MINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_MINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_TIMES_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_TIMES_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_DIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_DIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_DIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RDIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RDIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RDIV_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_FC32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_RMINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_RMINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_RMINUS_FC64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXNOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXNOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXNOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BOR_BXNOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXNOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXNOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXNOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BAND_BXNOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXNOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXNOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXNOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXOR_BXNOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BAND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BAND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BAND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BAND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXNOR_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXNOR_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXNOR_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_BXNOR_BXNOR_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRSTJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRSTJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_FIRSTJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FIRSTJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FIRSTJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDI_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDI_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDI1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDI1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDJ_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDJ_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECONDJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECONDJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ANY_SECONDJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_SECONDJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDJ1_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_SECONDJ1_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_TIMES_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_PLUS_MIN_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_PLUS_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_TIMES_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_FIRST_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_SECOND_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MIN_MAX_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_PLUS_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_TIMES_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_FIRST_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_SECOND_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_MAX_MIN_SEMIRING_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LOR_LAND_SEMIRING_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LAND_LOR_SEMIRING_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXOR_LAND_SEMIRING_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GrB_LXNOR_LOR_SEMIRING_BOOL: GrB_Semiring;
 }
 #[repr(u32)]
@@ -7784,13 +7784,13 @@ pub enum GxB_Format_Value {
     GxB_BY_COL = 1,
     GxB_NO_FORMAT = -1,
 }
-extern "C" {
+unsafe extern "C" {
     pub static GxB_FORMAT_DEFAULT: ::std::os::raw::c_int;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_init(mode: ::std::os::raw::c_int) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_init(
         mode: ::std::os::raw::c_int,
         user_malloc_function: ::std::option::Option<
@@ -7810,19 +7810,19 @@ extern "C" {
         >,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_finalize() -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_new(descriptor: *mut GrB_Descriptor) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_new(
         type_: *mut GrB_Type,
         sizeof_ctype: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Type_new(
         type_: *mut GrB_Type,
         sizeof_ctype: usize,
@@ -7830,13 +7830,13 @@ extern "C" {
         type_defn: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Type_from_name(
         type_: *mut GrB_Type,
         type_name: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_new(
         unaryop: *mut GrB_UnaryOp,
         function: GxB_unary_function,
@@ -7844,7 +7844,7 @@ extern "C" {
         xtype: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_new(
         unaryop: *mut GrB_UnaryOp,
         function: GxB_unary_function,
@@ -7854,7 +7854,7 @@ extern "C" {
         unop_defn: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_new(
         binaryop: *mut GrB_BinaryOp,
         function: GxB_binary_function,
@@ -7863,7 +7863,7 @@ extern "C" {
         ytype: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_new(
         op: *mut GrB_BinaryOp,
         function: GxB_binary_function,
@@ -7874,7 +7874,7 @@ extern "C" {
         binop_defn: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_new(
         op: *mut GxB_IndexBinaryOp,
         function: GxB_index_binary_function,
@@ -7886,14 +7886,14 @@ extern "C" {
         idxbinop_defn: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_new_IndexOp(
         binop: *mut GrB_BinaryOp,
         idxbinop: GxB_IndexBinaryOp,
         theta: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_new(
         op: *mut GrB_IndexUnaryOp,
         function: GxB_index_unary_function,
@@ -7902,7 +7902,7 @@ extern "C" {
         ytype: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexUnaryOp_new(
         op: *mut GrB_IndexUnaryOp,
         function: GxB_index_unary_function,
@@ -7913,105 +7913,105 @@ extern "C" {
         idxop_defn: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_BOOL(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: bool,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_INT8(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: i8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_INT16(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: i16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_INT32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_INT64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_UINT8(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: u8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_UINT16(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: u16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_UINT32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: u32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_UINT64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_FP32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: f32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_FP64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_new_FC32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: GxB_FC32_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_new_FC64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: GxB_FC64_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_new_UDT(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
         identity: *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_BOOL(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8019,7 +8019,7 @@ extern "C" {
         terminal: bool,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_INT8(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8027,7 +8027,7 @@ extern "C" {
         terminal: i8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_INT16(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8035,7 +8035,7 @@ extern "C" {
         terminal: i16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_INT32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8043,7 +8043,7 @@ extern "C" {
         terminal: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_INT64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8051,7 +8051,7 @@ extern "C" {
         terminal: i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_UINT8(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8059,7 +8059,7 @@ extern "C" {
         terminal: u8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_UINT16(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8067,7 +8067,7 @@ extern "C" {
         terminal: u16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_UINT32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8075,7 +8075,7 @@ extern "C" {
         terminal: u32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_UINT64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8083,7 +8083,7 @@ extern "C" {
         terminal: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_FP32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8091,7 +8091,7 @@ extern "C" {
         terminal: f32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_FP64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8099,7 +8099,7 @@ extern "C" {
         terminal: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_FC32(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8107,7 +8107,7 @@ extern "C" {
         terminal: GxB_FC32_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_FC64(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8115,7 +8115,7 @@ extern "C" {
         terminal: GxB_FC64_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal_new_UDT(
         monoid: *mut GrB_Monoid,
         op: GrB_BinaryOp,
@@ -8123,255 +8123,255 @@ extern "C" {
         terminal: *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_new(
         semiring: *mut GrB_Semiring,
         add: GrB_Monoid,
         multiply: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_new(
         s: *mut GrB_Scalar,
         type_: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_dup(
         s: *mut GrB_Scalar,
         t: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_clear(s: GrB_Scalar) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_nvals(
         nvals: *mut GrB_Index,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_memoryUsage(
         size: *mut usize,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_type(
         type_: *mut GrB_Type,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_BOOL(
         s: GrB_Scalar,
         x: bool,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_INT8(
         s: GrB_Scalar,
         x: i8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_INT16(
         s: GrB_Scalar,
         x: i16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_INT32(
         s: GrB_Scalar,
         x: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_INT64(
         s: GrB_Scalar,
         x: i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_UINT8(
         s: GrB_Scalar,
         x: u8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_UINT16(
         s: GrB_Scalar,
         x: u16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_UINT32(
         s: GrB_Scalar,
         x: u32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_UINT64(
         s: GrB_Scalar,
         x: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_FP32(
         s: GrB_Scalar,
         x: f32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_FP64(
         s: GrB_Scalar,
         x: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_FC32(
         s: GrB_Scalar,
         x: GxB_FC32_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_FC64(
         s: GrB_Scalar,
         x: GxB_FC64_t,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_setElement_UDT(
         s: GrB_Scalar,
         x: *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_BOOL(
         x: *mut bool,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_INT8(
         x: *mut i8,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_INT16(
         x: *mut i16,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_INT32(
         x: *mut i32,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_INT64(
         x: *mut i64,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_UINT8(
         x: *mut u8,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_UINT16(
         x: *mut u16,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_UINT32(
         x: *mut u32,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_UINT64(
         x: *mut u64,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_FP32(
         x: *mut f32,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_FP64(
         x: *mut f64,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_FC32(
         x: *mut GxB_FC32_t,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_FC64(
         x: *mut GxB_FC64_t,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_extractElement_UDT(
         x: *mut ::std::os::raw::c_void,
         s: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_new(
         v: *mut GrB_Vector,
         type_: GrB_Type,
         n: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_dup(
         w: *mut GrB_Vector,
         u: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_clear(v: GrB_Vector) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_size(
         n: *mut GrB_Index,
         v: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_nvals(
         nvals: *mut GrB_Index,
         v: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_memoryUsage(
         size: *mut usize,
         v: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_type(
         type_: *mut GrB_Type,
         v: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_BOOL(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8380,7 +8380,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_INT8(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8389,7 +8389,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_INT16(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8398,7 +8398,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_INT32(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8407,7 +8407,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_INT64(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8416,7 +8416,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_UINT8(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8425,7 +8425,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_UINT16(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8434,7 +8434,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_UINT32(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8443,7 +8443,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_UINT64(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8452,7 +8452,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_FP32(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8461,7 +8461,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_FP64(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8470,7 +8470,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_build_FC32(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8479,7 +8479,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_build_FC64(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8488,7 +8488,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_build_UDT(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8497,7 +8497,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_build_Vector(
         w: GrB_Vector,
         I_vector: GrB_Vector,
@@ -8506,7 +8506,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_build_Scalar(
         w: GrB_Vector,
         I_: *const GrB_Index,
@@ -8514,7 +8514,7 @@ extern "C" {
         nvals: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_build_Scalar_Vector(
         w: GrB_Vector,
         I_vector: GrB_Vector,
@@ -8522,229 +8522,229 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_BOOL(
         w: GrB_Vector,
         x: bool,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_INT8(
         w: GrB_Vector,
         x: i8,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_INT16(
         w: GrB_Vector,
         x: i16,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_INT32(
         w: GrB_Vector,
         x: i32,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_INT64(
         w: GrB_Vector,
         x: i64,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_UINT8(
         w: GrB_Vector,
         x: u8,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_UINT16(
         w: GrB_Vector,
         x: u16,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_UINT32(
         w: GrB_Vector,
         x: u32,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_UINT64(
         w: GrB_Vector,
         x: u64,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_FP32(
         w: GrB_Vector,
         x: f32,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_FP64(
         w: GrB_Vector,
         x: f64,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_setElement_FC32(
         w: GrB_Vector,
         x: GxB_FC32_t,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_setElement_FC64(
         w: GrB_Vector,
         x: GxB_FC64_t,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_UDT(
         w: GrB_Vector,
         x: *mut ::std::os::raw::c_void,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_setElement_Scalar(
         w: GrB_Vector,
         x: GrB_Scalar,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_BOOL(
         x: *mut bool,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_INT8(
         x: *mut i8,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_INT16(
         x: *mut i16,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_INT32(
         x: *mut i32,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_INT64(
         x: *mut i64,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_UINT8(
         x: *mut u8,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_UINT16(
         x: *mut u16,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_UINT32(
         x: *mut u32,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_UINT64(
         x: *mut u64,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_FP32(
         x: *mut f32,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_FP64(
         x: *mut f64,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extractElement_FC32(
         x: *mut GxB_FC32_t,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extractElement_FC64(
         x: *mut GxB_FC64_t,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_UDT(
         x: *mut ::std::os::raw::c_void,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractElement_Scalar(
         x: GrB_Scalar,
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_isStoredElement(
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_removeElement(
         v: GrB_Vector,
         i: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_BOOL(
         I_: *mut GrB_Index,
         X: *mut bool,
@@ -8752,7 +8752,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_INT8(
         I_: *mut GrB_Index,
         X: *mut i8,
@@ -8760,7 +8760,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_INT16(
         I_: *mut GrB_Index,
         X: *mut i16,
@@ -8768,7 +8768,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_INT32(
         I_: *mut GrB_Index,
         X: *mut i32,
@@ -8776,7 +8776,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_INT64(
         I_: *mut GrB_Index,
         X: *mut i64,
@@ -8784,7 +8784,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_UINT8(
         I_: *mut GrB_Index,
         X: *mut u8,
@@ -8792,7 +8792,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_UINT16(
         I_: *mut GrB_Index,
         X: *mut u16,
@@ -8800,7 +8800,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_UINT32(
         I_: *mut GrB_Index,
         X: *mut u32,
@@ -8808,7 +8808,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_UINT64(
         I_: *mut GrB_Index,
         X: *mut u64,
@@ -8816,7 +8816,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_FP32(
         I_: *mut GrB_Index,
         X: *mut f32,
@@ -8824,7 +8824,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_FP64(
         I_: *mut GrB_Index,
         X: *mut f64,
@@ -8832,7 +8832,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extractTuples_FC32(
         I_: *mut GrB_Index,
         X: *mut GxB_FC32_t,
@@ -8840,7 +8840,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extractTuples_FC64(
         I_: *mut GrB_Index,
         X: *mut GxB_FC64_t,
@@ -8848,7 +8848,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extractTuples_UDT(
         I_: *mut GrB_Index,
         X: *mut ::std::os::raw::c_void,
@@ -8856,7 +8856,7 @@ extern "C" {
         V: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extractTuples_Vector(
         I_vector: GrB_Vector,
         X_vector: GrB_Vector,
@@ -8864,7 +8864,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_new(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -8872,46 +8872,46 @@ extern "C" {
         ncols: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_dup(
         C: *mut GrB_Matrix,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_clear(A: GrB_Matrix) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_nrows(
         nrows: *mut GrB_Index,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_ncols(
         ncols: *mut GrB_Index,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_nvals(
         nvals: *mut GrB_Index,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_memoryUsage(
         size: *mut usize,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_type(
         type_: *mut GrB_Type,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_BOOL(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8921,7 +8921,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_INT8(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8931,7 +8931,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_INT16(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8941,7 +8941,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_INT32(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8951,7 +8951,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_INT64(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8961,7 +8961,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_UINT8(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8971,7 +8971,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_UINT16(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8981,7 +8981,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_UINT32(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -8991,7 +8991,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_UINT64(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9001,7 +9001,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_FP32(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9011,7 +9011,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_FP64(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9021,7 +9021,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_build_FC32(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9031,7 +9031,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_build_FC64(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9041,7 +9041,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_build_UDT(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9051,7 +9051,7 @@ extern "C" {
         dup: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_build_Vector(
         C: GrB_Matrix,
         I_vector: GrB_Vector,
@@ -9061,7 +9061,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_build_Scalar(
         C: GrB_Matrix,
         I_: *const GrB_Index,
@@ -9070,7 +9070,7 @@ extern "C" {
         nvals: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_build_Scalar_Vector(
         C: GrB_Matrix,
         I_vector: GrB_Vector,
@@ -9079,7 +9079,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_Scalar(
         C: GrB_Matrix,
         x: GrB_Scalar,
@@ -9087,7 +9087,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_BOOL(
         C: GrB_Matrix,
         x: bool,
@@ -9095,7 +9095,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_INT8(
         C: GrB_Matrix,
         x: i8,
@@ -9103,7 +9103,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_INT16(
         C: GrB_Matrix,
         x: i16,
@@ -9111,7 +9111,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_INT32(
         C: GrB_Matrix,
         x: i32,
@@ -9119,7 +9119,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_INT64(
         C: GrB_Matrix,
         x: i64,
@@ -9127,7 +9127,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_UINT8(
         C: GrB_Matrix,
         x: u8,
@@ -9135,7 +9135,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_UINT16(
         C: GrB_Matrix,
         x: u16,
@@ -9143,7 +9143,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_UINT32(
         C: GrB_Matrix,
         x: u32,
@@ -9151,7 +9151,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_UINT64(
         C: GrB_Matrix,
         x: u64,
@@ -9159,7 +9159,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_FP32(
         C: GrB_Matrix,
         x: f32,
@@ -9167,7 +9167,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_FP64(
         C: GrB_Matrix,
         x: f64,
@@ -9175,7 +9175,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_setElement_FC32(
         C: GrB_Matrix,
         x: GxB_FC32_t,
@@ -9183,7 +9183,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_setElement_FC64(
         C: GrB_Matrix,
         x: GxB_FC64_t,
@@ -9191,7 +9191,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_setElement_UDT(
         C: GrB_Matrix,
         x: *mut ::std::os::raw::c_void,
@@ -9199,7 +9199,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_BOOL(
         x: *mut bool,
         A: GrB_Matrix,
@@ -9207,7 +9207,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_INT8(
         x: *mut i8,
         A: GrB_Matrix,
@@ -9215,7 +9215,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_INT16(
         x: *mut i16,
         A: GrB_Matrix,
@@ -9223,7 +9223,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_INT32(
         x: *mut i32,
         A: GrB_Matrix,
@@ -9231,7 +9231,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_INT64(
         x: *mut i64,
         A: GrB_Matrix,
@@ -9239,7 +9239,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_UINT8(
         x: *mut u8,
         A: GrB_Matrix,
@@ -9247,7 +9247,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_UINT16(
         x: *mut u16,
         A: GrB_Matrix,
@@ -9255,7 +9255,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_UINT32(
         x: *mut u32,
         A: GrB_Matrix,
@@ -9263,7 +9263,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_UINT64(
         x: *mut u64,
         A: GrB_Matrix,
@@ -9271,7 +9271,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_FP32(
         x: *mut f32,
         A: GrB_Matrix,
@@ -9279,7 +9279,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_FP64(
         x: *mut f64,
         A: GrB_Matrix,
@@ -9287,7 +9287,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extractElement_FC32(
         x: *mut GxB_FC32_t,
         A: GrB_Matrix,
@@ -9295,7 +9295,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extractElement_FC64(
         x: *mut GxB_FC64_t,
         A: GrB_Matrix,
@@ -9303,7 +9303,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_UDT(
         x: *mut ::std::os::raw::c_void,
         A: GrB_Matrix,
@@ -9311,7 +9311,7 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractElement_Scalar(
         x: GrB_Scalar,
         A: GrB_Matrix,
@@ -9319,21 +9319,21 @@ extern "C" {
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_isStoredElement(
         A: GrB_Matrix,
         i: GrB_Index,
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_removeElement(
         C: GrB_Matrix,
         i: GrB_Index,
         j: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_BOOL(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9342,7 +9342,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_INT8(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9351,7 +9351,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_INT16(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9360,7 +9360,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_INT32(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9369,7 +9369,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_INT64(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9378,7 +9378,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_UINT8(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9387,7 +9387,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_UINT16(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9396,7 +9396,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_UINT32(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9405,7 +9405,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_UINT64(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9414,7 +9414,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_FP32(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9423,7 +9423,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_FP64(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9432,7 +9432,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extractTuples_FC32(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9441,7 +9441,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extractTuples_FC64(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9450,7 +9450,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extractTuples_UDT(
         I_: *mut GrB_Index,
         J: *mut GrB_Index,
@@ -9459,7 +9459,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extractTuples_Vector(
         I_vector: GrB_Vector,
         J_vector: GrB_Vector,
@@ -9468,7 +9468,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_concat(
         C: GrB_Matrix,
         Tiles: *const GrB_Matrix,
@@ -9477,7 +9477,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_split(
         Tiles: *mut GrB_Matrix,
         m: GrB_Index,
@@ -9488,14 +9488,14 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_diag(
         C: *mut GrB_Matrix,
         v: GrB_Vector,
         k: i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_diag(
         C: GrB_Matrix,
         v: GrB_Vector,
@@ -9503,7 +9503,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_diag(
         v: GrB_Vector,
         A: GrB_Matrix,
@@ -9511,436 +9511,436 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_new(Context: *mut GxB_Context) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_engage(Context: GxB_Context) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_disengage(Context: GxB_Context) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_get_Scalar(
         object: GrB_Scalar,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_get_String(
         object: GrB_Scalar,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_get_INT32(
         object: GrB_Scalar,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_get_SIZE(
         object: GrB_Scalar,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_get_VOID(
         object: GrB_Scalar,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_get_Scalar(
         object: GrB_Vector,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_get_String(
         object: GrB_Vector,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_get_INT32(
         object: GrB_Vector,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_get_SIZE(
         object: GrB_Vector,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_get_VOID(
         object: GrB_Vector,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_get_Scalar(
         object: GrB_Matrix,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_get_String(
         object: GrB_Matrix,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_get_INT32(
         object: GrB_Matrix,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_get_SIZE(
         object: GrB_Matrix,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_get_VOID(
         object: GrB_Matrix,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_get_Scalar(
         object: GrB_UnaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_get_String(
         object: GrB_UnaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_get_INT32(
         object: GrB_UnaryOp,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_get_SIZE(
         object: GrB_UnaryOp,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_get_VOID(
         object: GrB_UnaryOp,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_get_Scalar(
         object: GrB_IndexUnaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_get_String(
         object: GrB_IndexUnaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_get_INT32(
         object: GrB_IndexUnaryOp,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_get_SIZE(
         object: GrB_IndexUnaryOp,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_get_VOID(
         object: GrB_IndexUnaryOp,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_get_Scalar(
         object: GxB_IndexBinaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_get_String(
         object: GxB_IndexBinaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_get_INT32(
         object: GxB_IndexBinaryOp,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_get_SIZE(
         object: GxB_IndexBinaryOp,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_get_VOID(
         object: GxB_IndexBinaryOp,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_get_Scalar(
         object: GrB_BinaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_get_String(
         object: GrB_BinaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_get_INT32(
         object: GrB_BinaryOp,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_get_SIZE(
         object: GrB_BinaryOp,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_get_VOID(
         object: GrB_BinaryOp,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_get_Scalar(
         object: GrB_Monoid,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_get_String(
         object: GrB_Monoid,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_get_INT32(
         object: GrB_Monoid,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_get_SIZE(
         object: GrB_Monoid,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_get_VOID(
         object: GrB_Monoid,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_get_Scalar(
         object: GrB_Semiring,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_get_String(
         object: GrB_Semiring,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_get_INT32(
         object: GrB_Semiring,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_get_SIZE(
         object: GrB_Semiring,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_get_VOID(
         object: GrB_Semiring,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_get_Scalar(
         object: GrB_Descriptor,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_get_String(
         object: GrB_Descriptor,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_get_INT32(
         object: GrB_Descriptor,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_get_SIZE(
         object: GrB_Descriptor,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_get_VOID(
         object: GrB_Descriptor,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_get_Scalar(
         object: GrB_Type,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_get_String(
         object: GrB_Type,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_get_INT32(
         object: GrB_Type,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_get_SIZE(
         object: GrB_Type,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_get_VOID(
         object: GrB_Type,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_get_Scalar(
         object: GrB_Global,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_get_String(
         object: GrB_Global,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_get_INT32(
         object: GrB_Global,
         arg1: *mut i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_get_SIZE(
         object: GrB_Global,
         arg1: *mut usize,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_get_VOID(
         object: GrB_Global,
         arg1: *mut ::std::os::raw::c_void,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Serialized_get_Scalar(
         arg1: *const ::std::os::raw::c_void,
         arg2: GrB_Scalar,
@@ -9948,7 +9948,7 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Serialized_get_String(
         arg1: *const ::std::os::raw::c_void,
         arg2: *mut ::std::os::raw::c_char,
@@ -9956,7 +9956,7 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Serialized_get_INT32(
         arg1: *const ::std::os::raw::c_void,
         arg2: *mut i32,
@@ -9964,7 +9964,7 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Serialized_get_SIZE(
         arg1: *const ::std::os::raw::c_void,
         arg2: *mut usize,
@@ -9972,7 +9972,7 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Serialized_get_VOID(
         arg1: *const ::std::os::raw::c_void,
         arg2: *mut ::std::os::raw::c_void,
@@ -9980,63 +9980,63 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_Scalar(
         arg1: GxB_Context,
         arg2: GrB_Scalar,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_String(
         arg1: GxB_Context,
         arg2: *mut ::std::os::raw::c_char,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_INT(
         arg1: GxB_Context,
         arg2: *mut i32,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_SIZE(
         arg1: GxB_Context,
         arg2: *mut usize,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_VOID(
         arg1: GxB_Context,
         arg2: *mut ::std::os::raw::c_void,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_set_Scalar(
         object: GrB_Scalar,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_set_String(
         object: GrB_Scalar,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_set_INT32(
         object: GrB_Scalar,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_set_VOID(
         object: GrB_Scalar,
         arg1: *mut ::std::os::raw::c_void,
@@ -10044,28 +10044,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_set_Scalar(
         object: GrB_Vector,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_set_String(
         object: GrB_Vector,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_set_INT32(
         object: GrB_Vector,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_set_VOID(
         object: GrB_Vector,
         arg1: *mut ::std::os::raw::c_void,
@@ -10073,28 +10073,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_set_Scalar(
         object: GrB_Matrix,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_set_String(
         object: GrB_Matrix,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_set_INT32(
         object: GrB_Matrix,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_set_VOID(
         object: GrB_Matrix,
         arg1: *mut ::std::os::raw::c_void,
@@ -10102,28 +10102,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_set_Scalar(
         object: GrB_UnaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_set_String(
         object: GrB_UnaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_set_INT32(
         object: GrB_UnaryOp,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_set_VOID(
         object: GrB_UnaryOp,
         arg1: *mut ::std::os::raw::c_void,
@@ -10131,28 +10131,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_set_Scalar(
         object: GrB_IndexUnaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_set_String(
         object: GrB_IndexUnaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_set_INT32(
         object: GrB_IndexUnaryOp,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_set_VOID(
         object: GrB_IndexUnaryOp,
         arg1: *mut ::std::os::raw::c_void,
@@ -10160,28 +10160,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_set_Scalar(
         object: GxB_IndexBinaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_set_String(
         object: GxB_IndexBinaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_set_INT32(
         object: GxB_IndexBinaryOp,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_set_VOID(
         object: GxB_IndexBinaryOp,
         arg1: *mut ::std::os::raw::c_void,
@@ -10189,28 +10189,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_set_Scalar(
         object: GrB_BinaryOp,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_set_String(
         object: GrB_BinaryOp,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_set_INT32(
         object: GrB_BinaryOp,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_set_VOID(
         object: GrB_BinaryOp,
         arg1: *mut ::std::os::raw::c_void,
@@ -10218,28 +10218,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_set_Scalar(
         object: GrB_Monoid,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_set_String(
         object: GrB_Monoid,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_set_INT32(
         object: GrB_Monoid,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_set_VOID(
         object: GrB_Monoid,
         arg1: *mut ::std::os::raw::c_void,
@@ -10247,28 +10247,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_set_Scalar(
         object: GrB_Semiring,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_set_String(
         object: GrB_Semiring,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_set_INT32(
         object: GrB_Semiring,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_set_VOID(
         object: GrB_Semiring,
         arg1: *mut ::std::os::raw::c_void,
@@ -10276,28 +10276,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_set_Scalar(
         object: GrB_Descriptor,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_set_String(
         object: GrB_Descriptor,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_set_INT32(
         object: GrB_Descriptor,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_set_VOID(
         object: GrB_Descriptor,
         arg1: *mut ::std::os::raw::c_void,
@@ -10305,28 +10305,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_set_Scalar(
         object: GrB_Type,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_set_String(
         object: GrB_Type,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_set_INT32(
         object: GrB_Type,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_set_VOID(
         object: GrB_Type,
         arg1: *mut ::std::os::raw::c_void,
@@ -10334,28 +10334,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_set_Scalar(
         object: GrB_Global,
         arg1: GrB_Scalar,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_set_String(
         object: GrB_Global,
         arg1: *mut ::std::os::raw::c_char,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_set_INT32(
         object: GrB_Global,
         arg1: i32,
         arg2: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Global_set_VOID(
         object: GrB_Global,
         arg1: *mut ::std::os::raw::c_void,
@@ -10363,28 +10363,28 @@ extern "C" {
         arg3: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_Scalar(
         arg1: GxB_Context,
         arg2: GrB_Scalar,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_String(
         arg1: GxB_Context,
         arg2: *mut ::std::os::raw::c_char,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_INT(
         arg1: GxB_Context,
         arg2: i32,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_VOID(
         arg1: GxB_Context,
         arg2: *mut ::std::os::raw::c_void,
@@ -10392,151 +10392,151 @@ extern "C" {
         arg4: usize,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_wait(
         object: GrB_Type,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_wait(
         object: GrB_UnaryOp,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_wait(
         object: GrB_BinaryOp,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_wait(
         object: GrB_IndexUnaryOp,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_wait(
         object: GxB_IndexBinaryOp,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_wait(
         object: GrB_Monoid,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_wait(
         object: GrB_Semiring,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_wait(
         object: GrB_Descriptor,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_wait(
         object: GrB_Scalar,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_wait(
         object: GrB_Vector,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_wait(
         object: GrB_Matrix,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_wait(
         object: GxB_Context,
         waitmode: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_UnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_IndexUnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GxB_IndexBinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Monoid,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Semiring,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_error(
         error: *mut *const ::std::os::raw::c_char,
         object: GxB_Context,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_mxm(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10547,7 +10547,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_vxm(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10558,7 +10558,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_mxv(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10569,7 +10569,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseMult_Semiring(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10580,7 +10580,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseMult_Monoid(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10591,7 +10591,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseMult_BinaryOp(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10602,7 +10602,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseMult_Semiring(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10613,7 +10613,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseMult_Monoid(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10624,7 +10624,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseMult_BinaryOp(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10635,7 +10635,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseAdd_Semiring(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10646,7 +10646,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseAdd_Monoid(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10657,7 +10657,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_eWiseAdd_BinaryOp(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10668,7 +10668,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseAdd_Semiring(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10679,7 +10679,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseAdd_Monoid(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10690,7 +10690,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_eWiseAdd_BinaryOp(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10701,7 +10701,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_eWiseUnion(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10714,7 +10714,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_eWiseUnion(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10727,7 +10727,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_extract(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10738,7 +10738,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_extract_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10748,7 +10748,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_extract(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10761,7 +10761,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_extract_Vector(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10772,7 +10772,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Col_extract(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10784,7 +10784,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Col_extract_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10795,7 +10795,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10806,7 +10806,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10816,7 +10816,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10829,7 +10829,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_Vector(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -10840,7 +10840,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Col_subassign(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -10852,7 +10852,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Col_subassign_Vector(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -10863,7 +10863,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Row_subassign(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -10875,7 +10875,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Row_subassign_Vector(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -10886,7 +10886,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10897,7 +10897,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_Scalar_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10907,7 +10907,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10918,7 +10918,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10929,7 +10929,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10940,7 +10940,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10951,7 +10951,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10962,7 +10962,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10973,7 +10973,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10984,7 +10984,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -10995,7 +10995,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11006,7 +11006,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11017,7 +11017,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11028,7 +11028,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11039,7 +11039,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11050,7 +11050,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_subassign_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11061,7 +11061,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11074,7 +11074,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_Scalar_Vector(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11085,7 +11085,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11098,7 +11098,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11111,7 +11111,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11124,7 +11124,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11137,7 +11137,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11150,7 +11150,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11163,7 +11163,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11176,7 +11176,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11189,7 +11189,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11202,7 +11202,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11215,7 +11215,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11228,7 +11228,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11241,7 +11241,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11254,7 +11254,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_subassign_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11267,7 +11267,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11278,7 +11278,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_assign_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11288,7 +11288,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11301,7 +11301,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_assign_Vector(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11312,7 +11312,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Col_assign(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -11324,7 +11324,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Col_assign_Vector(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -11335,7 +11335,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Row_assign(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -11347,7 +11347,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Row_assign_Vector(
         C: GrB_Matrix,
         mask: GrB_Vector,
@@ -11358,7 +11358,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11369,7 +11369,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_assign_Scalar_Vector(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11379,7 +11379,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11390,7 +11390,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11401,7 +11401,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11412,7 +11412,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11423,7 +11423,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11434,7 +11434,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11445,7 +11445,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11456,7 +11456,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11467,7 +11467,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11478,7 +11478,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11489,7 +11489,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11500,7 +11500,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_assign_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11511,7 +11511,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_assign_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11522,7 +11522,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_assign_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11533,7 +11533,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11546,7 +11546,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_assign_Scalar_Vector(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11557,7 +11557,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11570,7 +11570,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11583,7 +11583,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11596,7 +11596,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11609,7 +11609,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11622,7 +11622,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11635,7 +11635,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11648,7 +11648,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11661,7 +11661,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11674,7 +11674,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11687,7 +11687,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11700,7 +11700,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_assign_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11713,7 +11713,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_assign_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11726,7 +11726,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_assign_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11739,7 +11739,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11749,7 +11749,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -11759,7 +11759,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11770,7 +11770,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11781,7 +11781,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11792,7 +11792,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11803,7 +11803,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11814,7 +11814,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11825,7 +11825,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11836,7 +11836,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11847,7 +11847,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11858,7 +11858,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11869,7 +11869,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11880,7 +11880,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11891,7 +11891,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp1st_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11902,7 +11902,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp1st_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11913,7 +11913,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp1st_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11924,7 +11924,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11935,7 +11935,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11946,7 +11946,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11957,7 +11957,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11968,7 +11968,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11979,7 +11979,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -11990,7 +11990,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12001,7 +12001,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12012,7 +12012,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12023,7 +12023,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12034,7 +12034,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12045,7 +12045,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12056,7 +12056,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp2nd_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12067,7 +12067,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp2nd_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12078,7 +12078,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_BinaryOp2nd_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12089,7 +12089,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12100,7 +12100,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12111,7 +12111,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12122,7 +12122,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12133,7 +12133,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12144,7 +12144,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12155,7 +12155,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12166,7 +12166,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12177,7 +12177,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12188,7 +12188,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12199,7 +12199,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12210,7 +12210,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12221,7 +12221,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_IndexOp_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12232,7 +12232,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_IndexOp_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12243,7 +12243,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_apply_IndexOp_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12254,7 +12254,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12265,7 +12265,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12276,7 +12276,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12287,7 +12287,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12298,7 +12298,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12309,7 +12309,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12320,7 +12320,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12331,7 +12331,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12342,7 +12342,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12353,7 +12353,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12364,7 +12364,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12375,7 +12375,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12386,7 +12386,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp1st_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12397,7 +12397,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp1st_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12408,7 +12408,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp1st_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12419,7 +12419,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12430,7 +12430,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12441,7 +12441,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12452,7 +12452,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12463,7 +12463,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12474,7 +12474,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12485,7 +12485,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12496,7 +12496,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12507,7 +12507,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12518,7 +12518,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12529,7 +12529,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12540,7 +12540,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12551,7 +12551,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp2nd_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12562,7 +12562,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp2nd_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12573,7 +12573,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_BinaryOp2nd_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12584,7 +12584,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12595,7 +12595,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12606,7 +12606,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12617,7 +12617,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12628,7 +12628,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12639,7 +12639,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12650,7 +12650,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12661,7 +12661,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12672,7 +12672,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12683,7 +12683,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12694,7 +12694,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12705,7 +12705,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12716,7 +12716,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_IndexOp_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12727,7 +12727,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_IndexOp_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12738,7 +12738,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_apply_IndexOp_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12749,7 +12749,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_Scalar(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12760,7 +12760,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_BOOL(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12771,7 +12771,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_INT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12782,7 +12782,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_INT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12793,7 +12793,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_INT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12804,7 +12804,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_INT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12815,7 +12815,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_UINT8(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12826,7 +12826,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_UINT16(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12837,7 +12837,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_UINT32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12848,7 +12848,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_UINT64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12859,7 +12859,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_FP32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12870,7 +12870,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_FP64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12881,7 +12881,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_select_FC32(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12892,7 +12892,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_select_FC64(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12903,7 +12903,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_select_UDT(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -12914,7 +12914,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_Scalar(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12925,7 +12925,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_BOOL(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12936,7 +12936,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_INT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12947,7 +12947,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_INT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12958,7 +12958,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_INT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12969,7 +12969,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_INT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12980,7 +12980,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_UINT8(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -12991,7 +12991,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_UINT16(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13002,7 +13002,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_UINT32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13013,7 +13013,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_UINT64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13024,7 +13024,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_FP32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13035,7 +13035,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_FP64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13046,7 +13046,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_select_FC32(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13057,7 +13057,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_select_FC64(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13068,7 +13068,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_select_UDT(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13079,7 +13079,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_Monoid(
         w: GrB_Vector,
         mask: GrB_Vector,
@@ -13089,7 +13089,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_Monoid_Scalar(
         c: GrB_Scalar,
         accum: GrB_BinaryOp,
@@ -13098,7 +13098,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_BOOL(
         c: *mut bool,
         accum: GrB_BinaryOp,
@@ -13107,7 +13107,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_INT8(
         c: *mut i8,
         accum: GrB_BinaryOp,
@@ -13116,7 +13116,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_INT16(
         c: *mut i16,
         accum: GrB_BinaryOp,
@@ -13125,7 +13125,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_INT32(
         c: *mut i32,
         accum: GrB_BinaryOp,
@@ -13134,7 +13134,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_INT64(
         c: *mut i64,
         accum: GrB_BinaryOp,
@@ -13143,7 +13143,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_UINT8(
         c: *mut u8,
         accum: GrB_BinaryOp,
@@ -13152,7 +13152,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_UINT16(
         c: *mut u16,
         accum: GrB_BinaryOp,
@@ -13161,7 +13161,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_UINT32(
         c: *mut u32,
         accum: GrB_BinaryOp,
@@ -13170,7 +13170,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_UINT64(
         c: *mut u64,
         accum: GrB_BinaryOp,
@@ -13179,7 +13179,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_FP32(
         c: *mut f32,
         accum: GrB_BinaryOp,
@@ -13188,7 +13188,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_FP64(
         c: *mut f64,
         accum: GrB_BinaryOp,
@@ -13197,7 +13197,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_reduce_FC32(
         c: *mut GxB_FC32_t,
         accum: GrB_BinaryOp,
@@ -13206,7 +13206,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_reduce_FC64(
         c: *mut GxB_FC64_t,
         accum: GrB_BinaryOp,
@@ -13215,7 +13215,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_UDT(
         c: *mut ::std::os::raw::c_void,
         accum: GrB_BinaryOp,
@@ -13224,7 +13224,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_Monoid_Scalar(
         c: GrB_Scalar,
         accum: GrB_BinaryOp,
@@ -13233,7 +13233,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_BOOL(
         c: *mut bool,
         accum: GrB_BinaryOp,
@@ -13242,7 +13242,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_INT8(
         c: *mut i8,
         accum: GrB_BinaryOp,
@@ -13251,7 +13251,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_INT16(
         c: *mut i16,
         accum: GrB_BinaryOp,
@@ -13260,7 +13260,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_INT32(
         c: *mut i32,
         accum: GrB_BinaryOp,
@@ -13269,7 +13269,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_INT64(
         c: *mut i64,
         accum: GrB_BinaryOp,
@@ -13278,7 +13278,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_UINT8(
         c: *mut u8,
         accum: GrB_BinaryOp,
@@ -13287,7 +13287,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_UINT16(
         c: *mut u16,
         accum: GrB_BinaryOp,
@@ -13296,7 +13296,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_UINT32(
         c: *mut u32,
         accum: GrB_BinaryOp,
@@ -13305,7 +13305,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_UINT64(
         c: *mut u64,
         accum: GrB_BinaryOp,
@@ -13314,7 +13314,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_FP32(
         c: *mut f32,
         accum: GrB_BinaryOp,
@@ -13323,7 +13323,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_FP64(
         c: *mut f64,
         accum: GrB_BinaryOp,
@@ -13332,7 +13332,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_reduce_FC32(
         c: *mut GxB_FC32_t,
         accum: GrB_BinaryOp,
@@ -13341,7 +13341,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_reduce_FC64(
         c: *mut GxB_FC64_t,
         accum: GrB_BinaryOp,
@@ -13350,7 +13350,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_UDT(
         c: *mut ::std::os::raw::c_void,
         accum: GrB_BinaryOp,
@@ -13359,7 +13359,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_BinaryOp(
         arg1: GrB_Vector,
         arg2: GrB_Vector,
@@ -13369,7 +13369,7 @@ extern "C" {
         arg6: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_reduce_BinaryOp_Scalar(
         arg1: GrB_Scalar,
         arg2: GrB_BinaryOp,
@@ -13378,7 +13378,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_reduce_BinaryOp_Scalar(
         arg1: GrB_Scalar,
         arg2: GrB_BinaryOp,
@@ -13387,7 +13387,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_transpose(
         C: GrB_Matrix,
         Mask: GrB_Matrix,
@@ -13396,7 +13396,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_kronecker_BinaryOp(
         C: GrB_Matrix,
         M: GrB_Matrix,
@@ -13407,7 +13407,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_kronecker_Monoid(
         C: GrB_Matrix,
         M: GrB_Matrix,
@@ -13418,7 +13418,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_kronecker_Semiring(
         C: GrB_Matrix,
         M: GrB_Matrix,
@@ -13429,20 +13429,20 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_resize(
         C: GrB_Matrix,
         nrows_new: GrB_Index,
         ncols_new: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_resize(
         w: GrB_Vector,
         nrows_new: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Type_fprint(
         type_: GrB_Type,
         name: *const ::std::os::raw::c_char,
@@ -13450,7 +13450,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_fprint(
         unaryop: GrB_UnaryOp,
         name: *const ::std::os::raw::c_char,
@@ -13458,7 +13458,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_fprint(
         binaryop: GrB_BinaryOp,
         name: *const ::std::os::raw::c_char,
@@ -13466,7 +13466,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexUnaryOp_fprint(
         op: GrB_IndexUnaryOp,
         name: *const ::std::os::raw::c_char,
@@ -13474,7 +13474,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_fprint(
         op: GxB_IndexBinaryOp,
         name: *const ::std::os::raw::c_char,
@@ -13482,7 +13482,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_fprint(
         monoid: GrB_Monoid,
         name: *const ::std::os::raw::c_char,
@@ -13490,7 +13490,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Semiring_fprint(
         semiring: GrB_Semiring,
         name: *const ::std::os::raw::c_char,
@@ -13498,7 +13498,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Descriptor_fprint(
         descriptor: GrB_Descriptor,
         name: *const ::std::os::raw::c_char,
@@ -13506,7 +13506,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_fprint(
         A: GrB_Matrix,
         name: *const ::std::os::raw::c_char,
@@ -13514,7 +13514,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_fprint(
         v: GrB_Vector,
         name: *const ::std::os::raw::c_char,
@@ -13522,7 +13522,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_fprint(
         s: GrB_Scalar,
         name: *const ::std::os::raw::c_char,
@@ -13530,7 +13530,7 @@ extern "C" {
         f: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_fprint(
         Context: GxB_Context,
         name: *const ::std::os::raw::c_char,
@@ -13564,38 +13564,38 @@ pub struct GxB_Container_struct {
     pub void_future: [*mut ::std::os::raw::c_void; 16usize],
 }
 pub type GxB_Container = *mut GxB_Container_struct;
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Container_new(Container: *mut GxB_Container) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_load_Matrix_from_Container(
         A: GrB_Matrix,
         Container: GxB_Container,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_load_Vector_from_Container(
         V: GrB_Vector,
         Container: GxB_Container,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_unload_Matrix_into_Container(
         A: GrB_Matrix,
         Container: GxB_Container,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_unload_Vector_into_Container(
         V: GrB_Vector,
         Container: GxB_Container,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_load(
         V: GrB_Vector,
         X: *mut *mut ::std::os::raw::c_void,
@@ -13606,7 +13606,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_unload(
         V: GrB_Vector,
         X: *mut *mut ::std::os::raw::c_void,
@@ -13617,7 +13617,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_BOOL(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13632,7 +13632,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_INT8(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13647,7 +13647,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_INT16(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13662,7 +13662,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_INT32(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13677,7 +13677,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_INT64(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13692,7 +13692,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_UINT8(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13707,7 +13707,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_UINT16(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13722,7 +13722,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_UINT32(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13737,7 +13737,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_UINT64(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13752,7 +13752,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_FP32(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13767,7 +13767,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_FP64(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13782,7 +13782,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_FC32(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13797,7 +13797,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_FC64(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13812,7 +13812,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_import_UDT(
         A: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -13827,7 +13827,7 @@ extern "C" {
         format: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_BOOL(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13839,7 +13839,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_INT8(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13851,7 +13851,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_INT16(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13863,7 +13863,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_INT32(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13875,7 +13875,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_INT64(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13887,7 +13887,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_UINT8(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13899,7 +13899,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_UINT16(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13911,7 +13911,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_UINT32(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13923,7 +13923,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_UINT64(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13935,7 +13935,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_FP32(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13947,7 +13947,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_FP64(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13959,7 +13959,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_FC32(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13971,7 +13971,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_FC64(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13983,7 +13983,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_export_UDT(
         Ap: *mut GrB_Index,
         Ai: *mut GrB_Index,
@@ -13995,7 +13995,7 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_exportSize(
         Ap_len: *mut GrB_Index,
         Ai_len: *mut GrB_Index,
@@ -14004,13 +14004,13 @@ extern "C" {
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_exportHint(
         format: *mut ::std::os::raw::c_int,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_serialize(
         blob_handle: *mut *mut ::std::os::raw::c_void,
         blob_size_handle: *mut GrB_Index,
@@ -14018,14 +14018,14 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_serialize(
         blob: *mut ::std::os::raw::c_void,
         blob_size_handle: *mut GrB_Index,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_serialize(
         blob_handle: *mut *mut ::std::os::raw::c_void,
         blob_size_handle: *mut GrB_Index,
@@ -14033,13 +14033,13 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_serializeSize(
         blob_size_handle: *mut GrB_Index,
         A: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_deserialize(
         C: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -14048,7 +14048,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_deserialize(
         C: *mut GrB_Matrix,
         type_: GrB_Type,
@@ -14056,7 +14056,7 @@ extern "C" {
         blob_size: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_deserialize(
         w: *mut GrB_Vector,
         type_: GrB_Type,
@@ -14065,7 +14065,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_sort(
         w: GrB_Vector,
         p: GrB_Vector,
@@ -14074,7 +14074,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_sort(
         C: GrB_Matrix,
         P: GrB_Matrix,
@@ -14083,7 +14083,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_reshape(
         C: GrB_Matrix,
         by_col: bool,
@@ -14092,7 +14092,7 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_reshapeDup(
         C: *mut GrB_Matrix,
         A: GrB_Matrix,
@@ -14128,10 +14128,10 @@ pub struct GB_Iterator_opaque {
     pub by_col: bool,
 }
 
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_new(iterator: *mut GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GB_Iterator_attach(
         iterator: GxB_Iterator,
         A: GrB_Matrix,
@@ -14139,824 +14139,824 @@ extern "C" {
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GB_Iterator_rc_seek(
         iterator: GxB_Iterator,
         j: GrB_Index,
         jth_vector: bool,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GB_Iterator_rc_bitmap_next(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_attach(
         iterator: GxB_Iterator,
         A: GrB_Matrix,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_kount(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_seekRow(
         iterator: GxB_Iterator,
         row: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_kseek(
         iterator: GxB_Iterator,
         k: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_nextRow(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_nextCol(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_getRowIndex(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_rowIterator_getColIndex(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_attach(
         iterator: GxB_Iterator,
         A: GrB_Matrix,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_kount(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_seekCol(
         iterator: GxB_Iterator,
         col: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_kseek(
         iterator: GxB_Iterator,
         k: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_nextCol(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_nextRow(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_getColIndex(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_colIterator_getRowIndex(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_attach(
         iterator: GxB_Iterator,
         A: GrB_Matrix,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_getpmax(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_seek(
         iterator: GxB_Iterator,
         p: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_next(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_getp(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Iterator_getIndex(
         iterator: GxB_Iterator,
         row: *mut GrB_Index,
         col: *mut GrB_Index,
     );
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_attach(
         iterator: GxB_Iterator,
         v: GrB_Vector,
         desc: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_getpmax(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GB_Vector_Iterator_bitmap_seek(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_seek(
         iterator: GxB_Iterator,
         p: GrB_Index,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_next(iterator: GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_getp(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Iterator_getIndex(iterator: GxB_Iterator) -> GrB_Index;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_BOOL(iterator: GxB_Iterator) -> bool;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_INT8(iterator: GxB_Iterator) -> i8;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_INT16(iterator: GxB_Iterator) -> i16;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_INT32(iterator: GxB_Iterator) -> i32;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_INT64(iterator: GxB_Iterator) -> i64;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_UINT8(iterator: GxB_Iterator) -> u8;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_UINT16(iterator: GxB_Iterator) -> u16;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_UINT32(iterator: GxB_Iterator) -> u32;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_UINT64(iterator: GxB_Iterator) -> u64;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_FP32(iterator: GxB_Iterator) -> f32;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_FP64(iterator: GxB_Iterator) -> f64;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_FC32(iterator: GxB_Iterator) -> GxB_FC32_t;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_FC64(iterator: GxB_Iterator) -> GxB_FC64_t;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_get_UDT(
         iterator: GxB_Iterator,
         value: *mut ::std::os::raw::c_void,
     );
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Type_free(object: *mut GrB_Type) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_UnaryOp_free(object: *mut GrB_UnaryOp) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_BinaryOp_free(object: *mut GrB_BinaryOp) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_IndexUnaryOp_free(object: *mut GrB_IndexUnaryOp) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexBinaryOp_free(object: *mut GxB_IndexBinaryOp) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Monoid_free(object: *mut GrB_Monoid) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Semiring_free(object: *mut GrB_Semiring) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_free(object: *mut GrB_Descriptor) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Scalar_free(object: *mut GrB_Scalar) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Vector_free(object: *mut GrB_Vector) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Matrix_free(object: *mut GrB_Matrix) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_free(object: *mut GxB_Context) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Container_free(object: *mut GxB_Container) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Iterator_free(object: *mut GxB_Iterator) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_iso(
         arg1: *mut bool,
         arg2: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_iso(
         arg1: *mut bool,
         arg2: GrB_Vector,
     ) -> GrB_Info;
 }
 pub type GrB_Field = ::std::os::raw::c_int;
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_getVersion(
         arg1: *mut ::std::os::raw::c_uint,
         arg2: *mut ::std::os::raw::c_uint,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GrB_Descriptor_set(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Descriptor_get(
         arg1: *mut i32,
         arg2: GrB_Descriptor,
         arg3: ::std::os::raw::c_int,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_set(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_set_INT32(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         arg3: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_set_FP64(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         arg3: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_get(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_get_INT32(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         arg3: *mut i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Desc_get_FP64(
         arg1: GrB_Descriptor,
         arg2: ::std::os::raw::c_int,
         arg3: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Type_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Type_size(
         arg1: *mut usize,
         arg2: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_ztype(
         arg1: *mut GrB_Type,
         arg2: GrB_UnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_ztype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_UnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_xtype(
         arg1: *mut GrB_Type,
         arg2: GrB_UnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_UnaryOp_xtype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_UnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_ztype(
         arg1: *mut GrB_Type,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_ztype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_xtype(
         arg1: *mut GrB_Type,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_xtype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_ytype(
         arg1: *mut GrB_Type,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_BinaryOp_ytype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_BinaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexUnaryOp_ztype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_IndexUnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexUnaryOp_xtype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_IndexUnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_IndexUnaryOp_ytype_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_IndexUnaryOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_operator(
         arg1: *mut GrB_BinaryOp,
         arg2: GrB_Monoid,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_identity(
         arg1: *mut ::std::os::raw::c_void,
         arg2: GrB_Monoid,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Monoid_terminal(
         arg1: *mut bool,
         arg2: *mut ::std::os::raw::c_void,
         arg3: GrB_Monoid,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Semiring_add(
         arg1: *mut GrB_Monoid,
         arg2: GrB_Semiring,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Semiring_multiply(
         arg1: *mut GrB_BinaryOp,
         arg2: GrB_Semiring,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_type_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_new(
         arg1: *mut GrB_Scalar,
         arg2: GrB_Type,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_dup(
         arg1: *mut GrB_Scalar,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_clear(arg1: GrB_Scalar) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_nvals(
         arg1: *mut u64,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_free(arg1: *mut GrB_Scalar) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_BOOL(
         arg1: GrB_Scalar,
         arg2: bool,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_INT8(
         arg1: GrB_Scalar,
         arg2: i8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_INT16(
         arg1: GrB_Scalar,
         arg2: i16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_INT32(
         arg1: GrB_Scalar,
         arg2: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_INT64(
         arg1: GrB_Scalar,
         arg2: i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_UINT8(
         arg1: GrB_Scalar,
         arg2: u8,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_UINT16(
         arg1: GrB_Scalar,
         arg2: u16,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_UINT32(
         arg1: GrB_Scalar,
         arg2: u32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_UINT64(
         arg1: GrB_Scalar,
         arg2: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_FP32(
         arg1: GrB_Scalar,
         arg2: f32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_FP64(
         arg1: GrB_Scalar,
         arg2: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_setElement_UDT(
         arg1: GrB_Scalar,
         arg2: *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_BOOL(
         arg1: *mut bool,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_INT8(
         arg1: *mut i8,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_INT16(
         arg1: *mut i16,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_INT32(
         arg1: *mut i32,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_INT64(
         arg1: *mut i64,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_UINT8(
         arg1: *mut u8,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_UINT16(
         arg1: *mut u16,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_UINT32(
         arg1: *mut u32,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_UINT64(
         arg1: *mut u64,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_FP32(
         arg1: *mut f32,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_FP64(
         arg1: *mut f64,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_extractElement_UDT(
         arg1: *mut ::std::os::raw::c_void,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_wait(arg1: *mut GrB_Scalar) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Scalar_error(
         arg1: *mut *const ::std::os::raw::c_char,
         arg2: GrB_Scalar,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_type_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_Vector,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_type_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: GrB_Matrix,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_set(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_set_INT32(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         arg3: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_set_FP64(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         arg3: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_get(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_get_INT32(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         arg3: *mut i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_Option_get_FP64(
         arg1: GrB_Matrix,
         arg2: ::std::os::raw::c_int,
         arg3: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_set(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_set_INT32(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         arg3: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_set_FP64(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         arg3: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_get(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_get_INT32(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         arg3: *mut i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_Option_get_FP64(
         arg1: GrB_Vector,
         arg2: ::std::os::raw::c_int,
         arg3: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set(
         arg1: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_INT32(
         arg1: ::std::os::raw::c_int,
         arg2: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_FP64(
         arg1: ::std::os::raw::c_int,
         arg2: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_FP64_ARRAY(
         arg1: ::std::os::raw::c_int,
         arg2: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_INT64_ARRAY(
         arg1: ::std::os::raw::c_int,
         arg2: *mut i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_CHAR(
         arg1: ::std::os::raw::c_int,
         arg2: *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_set_FUNCTION(
         arg1: ::std::os::raw::c_int,
         arg2: *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get(
         arg1: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get_INT32(
         arg1: ::std::os::raw::c_int,
         arg2: *mut i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get_FP64(
         arg1: ::std::os::raw::c_int,
         arg2: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get_INT64(
         arg1: ::std::os::raw::c_int,
         arg2: *mut i64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get_CHAR(
         arg1: ::std::os::raw::c_int,
         arg2: *mut *const ::std::os::raw::c_char,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Global_Option_get_FUNCTION(
         arg1: ::std::os::raw::c_int,
         arg2: *mut *mut ::std::os::raw::c_void,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_INT32(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         arg3: i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set_FP64(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         arg3: f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_set(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_INT32(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         arg3: *mut i32,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get_FP64(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         arg3: *mut f64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Context_get(
         arg1: GxB_Context,
         arg2: ::std::os::raw::c_int,
         ...
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp1st(
         arg1: GrB_Vector,
         arg2: GrB_Vector,
@@ -14967,7 +14967,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_apply_BinaryOp2nd(
         arg1: GrB_Vector,
         arg2: GrB_Vector,
@@ -14978,7 +14978,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp1st(
         arg1: GrB_Matrix,
         arg2: GrB_Matrix,
@@ -14989,7 +14989,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_apply_BinaryOp2nd(
         arg1: GrB_Matrix,
         arg2: GrB_Matrix,
@@ -15000,7 +15000,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_kron(
         arg1: GrB_Matrix,
         arg2: GrB_Matrix,
@@ -15011,20 +15011,20 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_resize(
         arg1: GrB_Matrix,
         arg2: u64,
         arg3: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_resize(
         arg1: GrB_Vector,
         arg2: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_CSR(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15041,7 +15041,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_BitmapR(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15056,7 +15056,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_CSC(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15073,7 +15073,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_HyperCSR(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15093,7 +15093,7 @@ extern "C" {
         arg16: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_HyperCSC(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15113,7 +15113,7 @@ extern "C" {
         arg16: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_BitmapC(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15128,7 +15128,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_FullR(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15140,7 +15140,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_import_FullC(
         arg1: *mut GrB_Matrix,
         arg2: GrB_Type,
@@ -15152,7 +15152,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_import_CSC(
         arg1: *mut GrB_Vector,
         arg2: GrB_Type,
@@ -15167,7 +15167,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_import_Bitmap(
         arg1: *mut GrB_Vector,
         arg2: GrB_Type,
@@ -15181,7 +15181,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_import_Full(
         arg1: *mut GrB_Vector,
         arg2: GrB_Type,
@@ -15192,7 +15192,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_CSR(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15209,7 +15209,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_CSC(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15226,7 +15226,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_HyperCSR(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15246,7 +15246,7 @@ extern "C" {
         arg16: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_HyperCSC(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15266,7 +15266,7 @@ extern "C" {
         arg16: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_BitmapR(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15281,7 +15281,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_BitmapC(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15296,7 +15296,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_FullR(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15308,7 +15308,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_export_FullC(
         arg1: *mut GrB_Matrix,
         arg2: *mut GrB_Type,
@@ -15320,7 +15320,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_export_CSC(
         arg1: *mut GrB_Vector,
         arg2: *mut GrB_Type,
@@ -15335,7 +15335,7 @@ extern "C" {
         arg11: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_export_Bitmap(
         arg1: *mut GrB_Vector,
         arg2: *mut GrB_Type,
@@ -15349,7 +15349,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_export_Full(
         arg1: *mut GrB_Vector,
         arg2: *mut GrB_Type,
@@ -15360,19 +15360,19 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_SelectOp_xtype(
         arg1: *mut GrB_Type,
         arg2: GxB_SelectOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_SelectOp_ttype(
         arg1: *mut GrB_Type,
         arg2: GxB_SelectOp,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_SelectOp_fprint(
         arg1: GxB_SelectOp,
         arg2: *const ::std::os::raw::c_char,
@@ -15380,7 +15380,7 @@ extern "C" {
         arg4: *mut FILE,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_select(
         arg1: GrB_Vector,
         arg2: GrB_Vector,
@@ -15391,7 +15391,7 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_select(
         arg1: GrB_Matrix,
         arg2: GrB_Matrix,
@@ -15402,602 +15402,602 @@ extern "C" {
         arg7: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_deserialize_type_name(
         arg1: *mut ::std::os::raw::c_char,
         arg2: *const ::std::os::raw::c_void,
         arg3: u64,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_BOOL: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_INT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_INT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_INT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_INT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_UINT8: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_UINT16: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_UINT32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_UINT64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_FP32: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_ABS_FP64: GrB_UnaryOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_INT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_INT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_INT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_INT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FP32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FP64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_INT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_INT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_INT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_INT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FP32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FP64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_INT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_INT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_INT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_INT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FP32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_FP64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_INT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_INT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_INT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_INT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_UINT8_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_UINT16_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_UINT32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_UINT64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FP32_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TIMES_FP64_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXNOR_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_BOOL_MONOID: GrB_Monoid;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_TIMES_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_PLUS_MIN_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_PLUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_TIMES_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_FIRST_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_SECOND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MIN_MAX_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_PLUS_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_TIMES_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_INT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_INT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_INT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_INT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_UINT8: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_UINT16: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_UINT32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_UINT64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_FP32: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_FIRST_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_SECOND_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_MAX_MIN_FP64: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LOR_LAND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LAND_LOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LXOR_LAND_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_LOR_BOOL: GrB_Semiring;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRIL: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_TRIU: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_DIAG: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_OFFDIAG: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_NONZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_ZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_GT_ZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_GE_ZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LT_ZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LE_ZERO: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_NE_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_EQ_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_GT_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_GE_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LT_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub static mut GxB_LE_THUNK: GxB_SelectOp;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_CSR(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16011,7 +16011,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_CSC(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16025,7 +16025,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_HyperCSR(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16042,7 +16042,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_HyperCSC(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16059,7 +16059,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_BitmapR(
         arg1: GrB_Matrix,
         arg2: *mut *mut i8,
@@ -16071,7 +16071,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_BitmapC(
         arg1: GrB_Matrix,
         arg2: *mut *mut i8,
@@ -16083,7 +16083,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_FullR(
         arg1: GrB_Matrix,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16092,7 +16092,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_pack_FullC(
         arg1: GrB_Matrix,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16101,7 +16101,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_pack_CSC(
         arg1: GrB_Vector,
         arg2: *mut *mut u64,
@@ -16114,7 +16114,7 @@ extern "C" {
         arg9: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_pack_Bitmap(
         arg1: GrB_Vector,
         arg2: *mut *mut i8,
@@ -16126,7 +16126,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_pack_Full(
         arg1: GrB_Vector,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16135,7 +16135,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_CSR(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16149,7 +16149,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_CSC(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16163,7 +16163,7 @@ extern "C" {
         arg10: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_HyperCSR(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16180,7 +16180,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_HyperCSC(
         arg1: GrB_Matrix,
         arg2: *mut *mut u64,
@@ -16197,7 +16197,7 @@ extern "C" {
         arg13: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_BitmapR(
         arg1: GrB_Matrix,
         arg2: *mut *mut i8,
@@ -16209,7 +16209,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_BitmapC(
         arg1: GrB_Matrix,
         arg2: *mut *mut i8,
@@ -16221,7 +16221,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_FullR(
         arg1: GrB_Matrix,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16230,7 +16230,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Matrix_unpack_FullC(
         arg1: GrB_Matrix,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16239,7 +16239,7 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_unpack_CSC(
         arg1: GrB_Vector,
         arg2: *mut *mut u64,
@@ -16252,7 +16252,7 @@ extern "C" {
         arg9: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_unpack_Bitmap(
         arg1: GrB_Vector,
         arg2: *mut *mut i8,
@@ -16264,7 +16264,7 @@ extern "C" {
         arg8: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_Vector_unpack_Full(
         arg1: GrB_Vector,
         arg2: *mut *mut ::std::os::raw::c_void,
@@ -16273,14 +16273,14 @@ extern "C" {
         arg5: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_unpack_HyperHash(
         arg1: GrB_Matrix,
         arg2: *mut GrB_Matrix,
         arg3: GrB_Descriptor,
     ) -> GrB_Info;
 }
-extern "C" {
+unsafe extern "C" {
     pub fn GxB_pack_HyperHash(
         arg1: GrB_Matrix,
         arg2: *mut GrB_Matrix,

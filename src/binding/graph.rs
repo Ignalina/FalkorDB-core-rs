@@ -96,7 +96,7 @@ pub enum ConfigOptionField {
     BOLT_PORT = 16,          // replicate queries via effects
 }
 
-extern "C" {
+unsafe extern "C" {
     fn Graph_CreateNode(
         g: *mut Graph,
         n: *mut Node,

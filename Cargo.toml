@@ -1,7 +1,7 @@
 [package]
 name = "FalkorDB-rs"
-version = "0.1.0"
-edition = "2021"
+version = "0.1.1"
+edition = "2024"
 
 [lib]
 crate-type = ["staticlib", "rlib"]
@@ -10,4 +10,4 @@ crate-type = ["staticlib", "rlib"]
 falkordb_allocator = []
 
 [dependencies]
-libc = "0.2.153"
+libc = "1.0.0-alpha.1"

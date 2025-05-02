@@ -10,9 +10,9 @@ mod binding;
 mod graph;
 mod undo_log;
 
-extern "C" {
-    static RedisModule_Alloc: Option<extern "C" fn(usize) -> *mut c_void>;
-    static RedisModule_Free: Option<extern "C" fn(*mut c_void)>;
+unsafe extern "C" {
+    static RedisModule_Alloc: Option<unsafe extern "C" fn(usize) -> *mut c_void>;
+    static RedisModule_Free: Option<unsafe extern "C" fn(*mut c_void)>;
 }
 
 pub struct FalkorDBAlloc;

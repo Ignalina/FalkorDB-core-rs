@@ -14,7 +14,7 @@ use super::{
 type _Matrix = *mut DeltaMatrix;
 type _MatrixTupleIter = *mut DeltaMatrixIter<'static>;
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_new(
     a: *mut _Matrix,
     ty: GrB_Type,
@@ -26,7 +26,7 @@ unsafe extern "C" fn Delta_Matrix_new(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_getTranspose(c: _Matrix) -> _Matrix {
     match (*c).transposed() {
         Some(m) => m.as_mut() as *mut DeltaMatrix,
@@ -34,12 +34,12 @@ unsafe extern "C" fn Delta_Matrix_getTranspose(c: _Matrix) -> _Matrix {
     }
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_M(c: _Matrix) -> GrB_Matrix {
     (&*c).m().grb_matrix_ref()
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_setM(
     c: _Matrix,
     m: GrB_Matrix,
@@ -48,7 +48,7 @@ unsafe extern "C" fn Delta_Matrix_setM(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_nrows(
     nrows: *mut GrB_Index,
     c: _Matrix,
@@ -57,7 +57,7 @@ unsafe extern "C" fn Delta_Matrix_nrows(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_ncols(
     ncols: *mut GrB_Index,
     c: _Matrix,
@@ -66,7 +66,7 @@ unsafe extern "C" fn Delta_Matrix_ncols(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_nvals(
     nvals: *mut GrB_Index,
     c: _Matrix,
@@ -75,7 +75,7 @@ unsafe extern "C" fn Delta_Matrix_nvals(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_resize(
     c: _Matrix,
     nrows_new: GrB_Index,
@@ -85,7 +85,7 @@ unsafe extern "C" fn Delta_Matrix_resize(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_setElement_BOOL(
     c: _Matrix,
     i: GrB_Index,
@@ -95,7 +95,7 @@ unsafe extern "C" fn Delta_Matrix_setElement_BOOL(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_setElement_UINT64(
     c: _Matrix,
     x: u64,
@@ -106,7 +106,7 @@ unsafe extern "C" fn Delta_Matrix_setElement_UINT64(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_extractElement_BOOL(
     x: *mut bool,
     c: _Matrix,
@@ -123,7 +123,7 @@ unsafe extern "C" fn Delta_Matrix_extractElement_BOOL(
     }
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_extractElement_UINT64(
     x: *mut u64,
     c: _Matrix,
@@ -140,7 +140,7 @@ unsafe extern "C" fn Delta_Matrix_extractElement_UINT64(
     }
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_removeElement(
     c: _Matrix,
     i: GrB_Index,
@@ -150,7 +150,7 @@ unsafe extern "C" fn Delta_Matrix_removeElement(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_removeElements(
     c: _Matrix,
     m: GrB_Matrix,
@@ -161,7 +161,7 @@ unsafe extern "C" fn Delta_Matrix_removeElements(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_mxm(
     c: _Matrix,
     semiring: GrB_Semiring,
@@ -172,7 +172,7 @@ unsafe extern "C" fn Delta_mxm(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_eWiseAdd(
     c: _Matrix,
     semiring: GrB_Semiring,
@@ -183,13 +183,13 @@ unsafe extern "C" fn Delta_eWiseAdd(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_clear(c: _Matrix) -> GrB_Info {
     (*c).clear();
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_copy(
     c: _Matrix,
     a: _Matrix,
@@ -198,7 +198,7 @@ unsafe extern "C" fn Delta_Matrix_copy(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_export(
     a: *mut GrB_Matrix,
     c: _Matrix,
@@ -207,7 +207,7 @@ unsafe extern "C" fn Delta_Matrix_export(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_pending(
     c: _Matrix,
     pending: *mut bool,
@@ -216,7 +216,7 @@ unsafe extern "C" fn Delta_Matrix_pending(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_wait(
     c: _Matrix,
     force_sync: bool,
@@ -225,7 +225,7 @@ unsafe extern "C" fn Delta_Matrix_wait(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_synchronize(
     c: _Matrix,
     nrows: GrB_Index,
@@ -234,13 +234,13 @@ unsafe extern "C" fn Delta_Matrix_synchronize(
     (*c).synchronize(nrows, ncols);
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_Matrix_free(c: *mut _Matrix) {
     drop(Box::from_raw(c.read_unaligned()));
     c.write_unaligned(null_mut());
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_attach(
     iter: _MatrixTupleIter,
     a: _Matrix,
@@ -249,7 +249,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_attach(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_AttachRange(
     iter: _MatrixTupleIter,
     a: _Matrix,
@@ -260,13 +260,13 @@ unsafe extern "C" fn Delta_MatrixTupleIter_AttachRange(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_detach(iter: _MatrixTupleIter) -> GrB_Info {
     (*iter).detach();
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_is_attached(
     iter: _MatrixTupleIter,
     a: _Matrix,
@@ -274,7 +274,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_is_attached(
     (&*iter).is_attached(&*a)
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_iterate_row(
     iter: _MatrixTupleIter,
     row_idx: GrB_Index,
@@ -283,7 +283,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_iterate_row(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_iterate_range(
     iter: _MatrixTupleIter,
     start_row_idx: GrB_Index,
@@ -293,7 +293,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_iterate_range(
     GrB_Info::GrB_SUCCESS
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_next_BOOL(
     iter: _MatrixTupleIter,
     row: *mut GrB_Index,
@@ -318,7 +318,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_next_BOOL(
     }
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_next_UINT64(
     iter: _MatrixTupleIter,
     row: *mut GrB_Index,
@@ -343,7 +343,7 @@ unsafe extern "C" fn Delta_MatrixTupleIter_next_UINT64(
     }
 }
 
-#[no_mangle]
+#[unsafe(no_mangle)]
 unsafe extern "C" fn Delta_MatrixTupleIter_reset(iter: _MatrixTupleIter) -> GrB_Info {
     (*iter).reset();
     GrB_Info::GrB_SUCCESS
